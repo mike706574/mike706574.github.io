@@ -12,7 +12,7 @@ The most obvious way to do that is to use *let*:
    :bar (inc foo)})
 
     ;; -> {:foo 1, :bar 2}
-{% highlight clojure %}
+{% endhighlight %}
 
 If you're silly, you could use a macro like this:
 
