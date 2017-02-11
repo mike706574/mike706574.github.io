@@ -4,7 +4,7 @@ title: 'A silly Clojure macro'
 ---
 In Clojure, let's say you want to produce a map, but some values in the map depend on other values.
 
-The most obvious way to do that is to use *let*:
+The most obvious way to do that is to use **let**:
 
 {% highlight clojure %}
 (let [foo 1]
