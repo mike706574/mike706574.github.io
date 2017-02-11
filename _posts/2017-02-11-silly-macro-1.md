@@ -60,4 +60,4 @@ With the macro, we can slim it down a little:
                 page (subvec movies page-index (+ page-index 10))]))))
 {% endhighlight %}
 
-It saved us a few lines, but it's probably not worth the cost of defining it as a private function or importing it from some other namespace.
+It saved us a few lines, but it's probably not worth the cost of defining it the namespace it's used or importing it from some other namespace.
